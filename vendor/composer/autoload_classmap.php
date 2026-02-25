@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\MathController' => $baseDir . '/app/Http/Controllers/MathController.php',
     'App\\Models\\CalculationHistory' => $baseDir . '/app/Models/CalculationHistory.php',
@@ -1146,6 +1147,9 @@ return array(
     'Illuminate\\Cache\\FileLock' => $vendorDir . '/laravel/framework/src/Illuminate/Cache/FileLock.php',
     'Illuminate\\Cache\\FileStore' => $vendorDir . '/laravel/framework/src/Illuminate/Cache/FileStore.php',
     'Illuminate\\Cache\\HasCacheLock' => $vendorDir . '/laravel/framework/src/Illuminate/Cache/HasCacheLock.php',
+    'Illuminate\\Cache\\Limiters\\ConcurrencyLimiter' => $vendorDir . '/laravel/framework/src/Illuminate/Cache/Limiters/ConcurrencyLimiter.php',
+    'Illuminate\\Cache\\Limiters\\ConcurrencyLimiterBuilder' => $vendorDir . '/laravel/framework/src/Illuminate/Cache/Limiters/ConcurrencyLimiterBuilder.php',
+    'Illuminate\\Cache\\Limiters\\LimiterTimeoutException' => $vendorDir . '/laravel/framework/src/Illuminate/Cache/Limiters/LimiterTimeoutException.php',
     'Illuminate\\Cache\\Lock' => $vendorDir . '/laravel/framework/src/Illuminate/Cache/Lock.php',
     'Illuminate\\Cache\\LuaScripts' => $vendorDir . '/laravel/framework/src/Illuminate/Cache/LuaScripts.php',
     'Illuminate\\Cache\\MemcachedConnector' => $vendorDir . '/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php',
